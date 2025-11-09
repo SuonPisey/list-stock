@@ -2,17 +2,17 @@
     {
         "id": 1,
         "name": "Gamma Ball",
-        "categoryId": "1",
+        "categoryId": 1,
         "categoryName": "Gadgets",
         "price": 22.15,
-        "stock": 11,
+        "stock":0,
         "rating": 1,
         "created": "2025-10-08"
     },
     {
         "id": 2,
         "name": "Delta Lamp",
-        "categoryId": "2",
+        "categoryId": 2,
         "categoryName": "Household",
         "price": 45.99,
         "stock": 25,
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "name": "Echo Speaker",
-        "categoryId": "1",
+        "categoryId": 1,
         "categoryName": "Gadgets",
         "price": 59.49,
         "stock": 18,
@@ -32,27 +32,27 @@
     {
         "id": 4,
         "name": "Atlas Mug",
-        "categoryId": "2",
+        "categoryId": 2,
         "categoryName": "Household",
         "price": 12.99,
-        "stock": 50,
+        "stock": 0,
         "rating": 3,
         "created": "2025-10-05"
     },
     {
         "id": 5,
         "name": "Nova Backpack",
-        "categoryId": "3",
+        "categoryId": 3,
         "categoryName": "Books",
         "price": 33.71,
-        "stock": 3,
+        "stock": 0,
         "rating": 2,
         "created": "2025-10-01"
     },
     {
         "id": 6,
         "name": "Sigma Pen",
-        "categoryId": "3",
+        "categoryId": 3,
         "categoryName": "Books",
         "price": 2.99,
         "stock": 100,
@@ -62,17 +62,17 @@
     {
         "id": 7,
         "name": "Vega Notebook",
-        "categoryId": "3",
+        "categoryId": 3,
         "categoryName": "Books",
         "price": 7.49,
-        "stock": 60,
+        "stock": 0,
         "rating": 3,
         "created": "2025-09-29"
     },
     {
         "id": 8,
         "name": "Orion Brush",
-        "categoryId": "2",
+        "categoryId": 2,
         "categoryName": "Household",
         "price": 50.96,
         "stock": 47,
@@ -82,7 +82,7 @@
     {
         "id": 9,
         "name": "Luna Clock",
-        "categoryId": "1",
+        "categoryId": 1,
         "categoryName": "Gadgets",
         "price": 29.99,
         "stock": 20,
@@ -92,7 +92,7 @@
     {
         "id": 10,
         "name": "Foxtrot Phone Case",
-        "categoryId": "3",
+        "categoryId": 3,
         "categoryName": "Books",
         "price": 34.71,
         "stock": 35,
@@ -102,7 +102,7 @@
     {
         "id": 11,
         "name": "Comet Charger",
-        "categoryId": "1",
+        "categoryId": 1,
         "categoryName": "Gadgets",
         "price": 19.99,
         "stock": 15,
@@ -112,7 +112,7 @@
     {
         "id": 12,
         "name": "Atlas Bottle",
-        "categoryId": "2",
+        "categoryId": 2,
         "categoryName": "Household",
         "price": 15.99,
         "stock": 40,
@@ -122,7 +122,7 @@
     {
         "id": 13,
         "name": "Gamma Book",
-        "categoryId": "3",
+        "categoryId": 3,
         "categoryName": "Books",
         "price": 12.49,
         "stock": 22,
@@ -132,7 +132,7 @@
     {
         "id": 14,
         "name": "Delta Pillow",
-        "categoryId": "2",
+        "categoryId": 2,
         "categoryName": "Household",
         "price": 25.99,
         "stock": 30,
@@ -142,7 +142,7 @@
     {
         "id": 15,
         "name": "Echo Lamp",
-        "categoryId": "2",
+        "categoryId": 2,
         "categoryName": "Household",
         "price": 39.99,
         "stock": 12,
@@ -152,7 +152,7 @@
     {
         "id": 16,
         "name": "Sigma Marker",
-        "categoryId": "3",
+        "categoryId": 3,
         "categoryName": "Books",
         "price": 1.99,
         "stock": 80,
@@ -162,7 +162,7 @@
     {
         "id": 17,
         "name": "Vega Eraser",
-        "categoryId": "3",
+        "categoryId": 3,
         "categoryName": "Books",
         "price": 0.99,
         "stock": 90,
@@ -172,7 +172,7 @@
     {
         "id": 18,
         "name": "Luna Lamp",
-        "categoryId": "2",
+        "categoryId": 2,
         "categoryName": "Household",
         "price": 27.99,
         "stock": 17,
@@ -182,7 +182,7 @@
     {
         "id": 19,
         "name": "Comet Cable",
-        "categoryId": "1",
+        "categoryId": 1,
         "categoryName": "Gadgets",
         "price": 8.99,
         "stock": 33,
@@ -192,7 +192,7 @@
     {
         "id": 20,
         "name": "Atlas Plate",
-        "categoryId": "2",
+        "categoryId": 2,
         "categoryName": "Household",
         "price": 9.99,
         "stock": 55,
@@ -202,7 +202,7 @@
     {
         "id": 21,
         "name": "Gamma Charger",
-        "categoryId": "1",
+        "categoryId": 1,
         "categoryName": "Gadgets",
         "price": 18.99,
         "stock": 14,
@@ -212,7 +212,7 @@
     {
         "id": 22,
         "name": "Delta Book",
-        "categoryId": "3",
+        "categoryId": 3,
         "categoryName": "Books",
         "price": 14.99,
         "stock": 27,
@@ -222,7 +222,7 @@
     {
         "id": 23,
         "name": "Echo Pen",
-        "categoryId": "3",
+        "categoryId": 3,
         "categoryName": "Books",
         "price": 3.49,
         "stock": 70,
@@ -232,7 +232,7 @@
     {
         "id": 24,
         "name": "Sigma Stand",
-        "categoryId": "2",
+        "categoryId": 2,
         "categoryName": "Household",
         "price": 49.99,
         "stock": 19,
@@ -242,7 +242,7 @@
     {
         "id": 25,
         "name": "Vega Lamp",
-        "categoryId": "2",
+        "categoryId": 2,
         "categoryName": "Household",
         "price": 35.99,
         "stock": 21,
@@ -252,7 +252,7 @@
     {
         "id": 26,
         "name": "Luna Book",
-        "categoryId": "3",
+        "categoryId": 3,
         "categoryName": "Books",
         "price": 16.99,
         "stock": 24,
@@ -262,7 +262,7 @@
     {
         "id": 27,
         "name": "Comet Pen",
-        "categoryId": "3",
+        "categoryId": 3,
         "categoryName": "Books",
         "price": 2.49,
         "stock": 65,
@@ -272,7 +272,7 @@
     {
         "id": 28,
         "name": "Foxtrot Stand",
-        "categoryId": "2",
+        "categoryId": 2,
         "categoryName": "Household",
         "price": 69.95,
         "stock": 39,
@@ -282,7 +282,7 @@
     {
         "id": 29,
         "name": "Orion Lamp",
-        "categoryId": "2",
+        "categoryId": 2,
         "categoryName": "Household",
         "price": 44.99,
         "stock": 16,
@@ -292,7 +292,7 @@
     {
         "id": 30,
         "name": "Nova Pen",
-        "categoryId": "3",
+        "categoryId": 3,
         "categoryName": "Books",
         "price": 1.49,
         "stock": 75,
