@@ -50,7 +50,7 @@ export default function StarRating({
                 >
                   <Star
                     size={starSize}
-                    className="fill-amber-400 text-amber-400"
+                    className="fill-black text-black dark:fill-white dark:text-white  "
                   />
                 </div>
               )}

@@ -79,7 +79,7 @@ const ListStockCompo = () => {
       <Card className="w-full p-6 ">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <CircleCheck className="text-blue-500" />
+            <CircleCheck className="text-blue-500" absoluteStrokeWidth/>
             <p className="text-xl font-bold"> Inventory Dashboard</p>
           </div>
           <div>

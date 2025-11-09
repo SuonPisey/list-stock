@@ -155,7 +155,7 @@ export function DataTableStock({
         );
       },
       cell: ({ row }) => (
-        <div className="lowercase">{row.getValue("categoryName")}</div>
+        <div className="bg-blue-200 px-2 py-0.5 w-fit rounded-4xl text-blue-600" >{row.getValue("categoryName")}</div>
       ),
     },
     {
@@ -179,6 +179,7 @@ export function DataTableStock({
           <Button
             variant="ghost"
             onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+            className="text-center "
           >
             Stock
             <ArrowUpDown />
@@ -186,7 +187,7 @@ export function DataTableStock({
         );
       },
       cell: ({ row }) => (
-        <div className="lowercase">{row.getValue("stock")}</div>
+        <div className="lowercase text-left pl-6">{row.getValue("stock")}</div>
       ),
     },
     {
@@ -202,7 +203,9 @@ export function DataTableStock({
           </Button>
         );
       },
-      cell: ({ row }) => <StarRating rating={row.getValue("rating")} />,
+      cell: ({ row }) => (
+        <StarRating rating={row.getValue("rating")} size="sm" />
+      ),
     },
     {
       accessorKey: "created",

@@ -63,6 +63,7 @@ const UpdateStockByItem = ({
   });
   const onSubmit = (data: z.infer<typeof formSchema>) => {
     console.log("Form submitted:", data);
+    onClose();
   };
   useEffect(() => {
     if (!isOpen) {
